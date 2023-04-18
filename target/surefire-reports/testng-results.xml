@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T17:12:34 ALMT" name="Surefire suite" finished-at="2023-04-18T17:14:46 ALMT" duration-ms="131856">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T17:12:34 ALMT" name="Surefire test" finished-at="2023-04-18T17:14:46 ALMT" duration-ms="131856">
+      <class name="YahooLoginPageTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:13:51 ALMT" name="beforeMethod" finished-at="2023-04-18T17:13:56 ALMT" duration-ms="5305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginInvalidPasswordTest(java.lang.String,java.lang.String)[pri:2, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:13:56 ALMT" name="loginInvalidPasswordTest" data-provider="invalidPasswordData" finished-at="2023-04-18T17:14:03 ALMT" duration-ms="7134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testmailgor33@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[what a day!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPasswordTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:03 ALMT" name="afterMethod" finished-at="2023-04-18T17:14:03 ALMT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:03 ALMT" name="beforeMethod" finished-at="2023-04-18T17:14:08 ALMT" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginInvalidUserNameTest(java.lang.String,java.lang.String)[pri:2, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:08 ALMT" name="loginInvalidUserNameTest" data-provider="invalidUsernameData" finished-at="2023-04-18T17:14:09 ALMT" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUserNameTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:09 ALMT" name="afterMethod" finished-at="2023-04-18T17:14:09 ALMT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:09 ALMT" name="beforeMethod" finished-at="2023-04-18T17:14:17 ALMT" duration-ms="8162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginInvalidUserNameTest(java.lang.String,java.lang.String)[pri:2, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:17 ALMT" name="loginInvalidUserNameTest" data-provider="invalidUsernameData" finished-at="2023-04-18T17:14:18 ALMT" duration-ms="845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thisistestmail7798@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUserNameTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:18 ALMT" name="afterMethod" finished-at="2023-04-18T17:14:18 ALMT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:18 ALMT" name="beforeMethod" finished-at="2023-04-18T17:14:23 ALMT" duration-ms="4640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="yahooLoginValidUserTest(java.lang.String,java.lang.String)[pri:2, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:23 ALMT" name="yahooLoginValidUserTest" data-provider="validLoginData" finished-at="2023-04-18T17:14:45 ALMT" duration-ms="22583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testmailgor33@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testmail123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLoginValidUserTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:YahooLoginPageTests@2e222612]" started-at="2023-04-18T17:14:45 ALMT" name="afterMethod" finished-at="2023-04-18T17:14:45 ALMT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- YahooLoginPageTests -->
+      <class name="EmailContentsIntegrityFromProtonToYahooTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:EmailContentsIntegrityFromProtonToYahooTest@3d5c822d]" started-at="2023-04-18T17:12:34 ALMT" name="setup" finished-at="2023-04-18T17:13:51 ALMT" duration-ms="76359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="messageSenderTest()[pri:0, instance:EmailContentsIntegrityFromProtonToYahooTest@3d5c822d]" started-at="2023-04-18T17:14:45 ALMT" name="messageSenderTest" finished-at="2023-04-18T17:14:46 ALMT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageSenderTest -->
+        <test-method signature="messageUnreadTest()[pri:0, instance:EmailContentsIntegrityFromProtonToYahooTest@3d5c822d]" started-at="2023-04-18T17:14:46 ALMT" name="messageUnreadTest" finished-at="2023-04-18T17:14:46 ALMT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageUnreadTest -->
+        <test-method signature="messageBodyIntegrityTest()[pri:0, instance:EmailContentsIntegrityFromProtonToYahooTest@3d5c822d]" started-at="2023-04-18T17:14:46 ALMT" name="messageBodyIntegrityTest" finished-at="2023-04-18T17:14:46 ALMT" depends-on-methods="EmailContentsIntegrityFromProtonToYahooTest.messageUnreadTest" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageBodyIntegrityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EmailContentsIntegrityFromProtonToYahooTest@3d5c822d]" started-at="2023-04-18T17:14:46 ALMT" name="tearDown" finished-at="2023-04-18T17:14:46 ALMT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EmailContentsIntegrityFromProtonToYahooTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

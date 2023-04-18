@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: YahooLoginPageTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.158 s <<< FAILURE! - in YahooLoginPageTests
+YahooLoginPageTests.yahooLoginValidUserTest[testmailgor33@yahoo.com, testmail123123](1)  Time elapsed: 20.731 s  <<< FAILURE!
+java.lang.AssertionError: expected [testmailgor33@yahoo.com - Yahoo Mail] but found [(2 unread) - testmailgor33@yahoo.com - Yahoo Mail]
+	at YahooLoginPageTests.yahooLoginValidUserTest(YahooLoginPageTests.java:19)
+
