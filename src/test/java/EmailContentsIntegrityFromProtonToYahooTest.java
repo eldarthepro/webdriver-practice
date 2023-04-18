@@ -15,9 +15,9 @@ public class EmailContentsIntegrityFromProtonToYahooTest {
         driver.get("https://account.proton.me/login");
 
         //send message from Protonmail
-        CommonMethods.waitForElement(ProtonLoginPage.getUsernameFieldLocator(), driver);
+        AbstractPage.waitForElement(ProtonLoginPage.getUsernameFieldLocator(), driver);
         ProtonMessagePage messagePage = new ProtonLoginPage(driver).loginValidUser(protonUsername, "testmail123123").composeNewMessage();
-        CommonMethods.waitForElement(ProtonMessagePage.getMessageWindowIframeLocator(), driver);
+        AbstractPage.waitForElement(ProtonMessagePage.getMessageWindowIframeLocator(), driver);
         messagePage.inputRecipientAddress("testmailgor33@yahoo.com");
         messagePage.inputMessageSubject("Hello there!");
         driver.switchTo().frame(driver.findElement(ProtonMessagePage.getMessageWindowIframeLocator()));

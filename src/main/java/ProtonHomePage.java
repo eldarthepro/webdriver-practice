@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ProtonHomePage extends CommonMethods{
+public class ProtonHomePage extends AbstractPage{
     protected final WebDriver driver;
     private static final By newMessageButton = By.xpath("//*[@data-testid=\"sidebar:compose\"]");
 

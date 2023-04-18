@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class YahooLoginPage extends CommonMethods{
+public class YahooLoginPage extends AbstractPage{
     protected final WebDriver driver;
     private static final By usernameField = By.xpath("//input[@id=\"login-username\"]");
     private static final By passwordField = By.xpath("//*[@id=\"login-passwd\"]");

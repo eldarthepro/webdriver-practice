@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ProtonMessagePage extends CommonMethods{
+public class ProtonMessagePage extends AbstractPage{
     protected final WebDriver driver;
     private static final By sendMessageButton = By.cssSelector(".button.composer-send-button");
     private static final By subjectField = By.cssSelector("div[class*='flex-item-fluid'] input[data-testid='composer:subject']");

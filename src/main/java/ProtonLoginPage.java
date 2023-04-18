@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class ProtonLoginPage extends CommonMethods{
+public class ProtonLoginPage extends AbstractPage{
     protected final WebDriver driver;
     private static final By usernameField = By.xpath("//*[@id=\"username\"]");
     private static final By passwordField = By.xpath("//*[@id=\"password\"]");

@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class YahooHomePage extends CommonMethods {
+public class YahooHomePage extends AbstractPage {
     protected final WebDriver driver;
     private static final By unreadMessageIcon = By.xpath("//*[@data-test-id=\"icon-btn-read\"]");
     private static final By firstUnreadMessageSender = By.xpath("//strong[@class=\"u_Z13VSE6\"]");
@@ -19,7 +19,7 @@ public class YahooHomePage extends CommonMethods {
     }
     public YahooMessagePage readFirstMessage(){
         driver.findElement(messageTextPreview).click();
-        CommonMethods.waitForElement(YahooMessagePage.getSenderIconLocator(), driver);
+        waitForElement(YahooMessagePage.getSenderIconLocator(), driver);
         return new YahooMessagePage(driver);
     }
     public String getFirstUnreadMessageSender(){
